@@ -1,0 +1,15 @@
+langchain
+langchain_community
+langchain_core
+langchain_text_splitters
+numpy
+pandas
+scikit_lear
+streamlit
+transformers
+umap_learn
+pymilvus
+pypdf
+tiktoken
+sentence-transformers 
+matplotlib
