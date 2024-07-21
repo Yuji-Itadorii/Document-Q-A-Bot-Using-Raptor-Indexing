@@ -54,7 +54,7 @@ embd  = HuggingFaceBgeEmbeddings(
             )
 
 # Hugging Face LLM to generate Summaries of CLusters
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = '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'
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = 'YOUR_TOKEN'
 repo_id = "Falconsai/text_summarization"
 tokenizer = AutoTokenizer.from_pretrained(repo_id)
 hugging_face_model = TFAutoModelForSeq2SeqLM.from_pretrained(repo_id)

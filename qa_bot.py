@@ -48,7 +48,7 @@ vector_store = Milvus(
 # Hugging Face LLM to generate answers of provided queries
 repo_id = "mistralai/Mistral-7B-Instruct-v0.2"
 llm = HuggingFaceEndpoint(
-        repo_id=repo_id, max_length=512, temperature=0.5, token='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'
+        repo_id=repo_id, max_length=512, temperature=0.5, token='YOUR_TOKEN'
     )
 
 prompt = PromptTemplate(
